@@ -1,0 +1,55 @@
+body {
+    font-family: "Noto Sans Thai", sans-serif;
+    background-color: rgb(228, 231, 254);
+    margin: 0;
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    background-color: #4e54c8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px; /* เพิ่มระยะห่างจากส่วน header */
+    text-align: left;
+    gap: 20px; /* ระยะห่างระหว่างรูปภาพและข้อความ */
+}
+.container img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+.info {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.info {
+    display: grid;
+    grid-template-columns: auto auto; /* 2 คอลัมน์ */
+    gap: 5px 15px; /* ระยะห่างระหว่างแถวและคอลัมน์ */
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.info .label {
+    text-align: right; /* จัดข้อความของ label ให้อยู่ชิดขวา */
+    font-weight: bold;
+}
+.info-table {
+    border-collapse: collapse;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.info-table td {
+    padding: 5px 15px;
+}
