@@ -1,0 +1,111 @@
+/* เพิ่มขอบให้กับคอลัมน์ */
+.col-sm-3 {
+    border: 2px solid #0099ff; /* ขอบสีฟ้าเริ่มต้น */
+    border-radius: 8px; /* มุมโค้ง */
+    padding: 15px; /* เพิ่มช่องว่างภายใน */
+    margin-bottom: 15px; /* เพิ่มช่องว่างด้านล่าง */
+    transition: all 0.3s ease; /* การเปลี่ยนแปลงทุกอย่างในเวลา 0.3 วินาที */
+}
+
+/* เพิ่มลูกเล่นเมื่อชี้ที่คอลัมน์ */
+.col-sm-3:hover {
+    transform: scale(1.05); /* ขยายขนาดเล็กน้อย */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาที่ขอบ */
+}
+
+/* สำหรับ Bootstrap */
+.col-sm-3:nth-child(1) {
+    border-color: #563d7c; /* สีของ Bootstrap */
+    background-color: #eec5ff; /* พื้นหลังสีของ Bootstrap */
+}
+
+.col-sm-3:nth-child(1):hover {
+    border-color: #9b59b6; /* สีเมื่อชี้ที่ Bootstrap */
+    background-color: #f4dcff; /* เปลี่ยนพื้นหลังเมื่อชี้ */
+}
+
+/* เปลี่ยนสีฟอนต์ของหัวข้อ (h3) สำหรับ Bootstrap */
+.col-sm-3:nth-child(1) h3 {
+    color: #563d7c; /* สีฟอนต์ของหัวข้อ Bootstrap */
+}
+
+/* เปลี่ยนสีฟอนต์ของเนื้อหาสำหรับ Bootstrap */
+.col-sm-3:nth-child(1) p {
+    color: #8e44ad; /* สีฟอนต์ของเนื้อหา Bootstrap (สีม่วงอ่อนกว่า) */
+}
+
+/* สำหรับ CSS */
+.col-sm-3:nth-child(2) {
+    border-color: #2965f1; /* สีของ CSS */
+    background-color: #b4d7ff; /* พื้นหลังสีของ CSS */
+}
+
+.col-sm-3:nth-child(2):hover {
+    border-color: #4c9fff; /* สีเมื่อชี้ที่ CSS */
+    background-color: #d1e7ff; /* เปลี่ยนพื้นหลังเมื่อชี้ */
+}
+
+/* เปลี่ยนสีฟอนต์ของหัวข้อ (h3) สำหรับ CSS */
+.col-sm-3:nth-child(2) h3 {
+    color: #2965f1; /* สีฟอนต์ของหัวข้อ CSS */
+}
+
+/* เปลี่ยนสีฟอนต์ของเนื้อหาสำหรับ CSS */
+.col-sm-3:nth-child(2) p {
+    color: #5ca9ff; /* สีฟอนต์ของเนื้อหา CSS (สีฟ้าอ่อนกว่า) */
+}
+
+/* สำหรับ JavaScript */
+.col-sm-3:nth-child(3) {
+    border-color: #f7df1e; /* สีของ JavaScript */
+    background-color: #fff3c3; /* พื้นหลังสีของ JavaScript */
+}
+
+.col-sm-3:nth-child(3):hover {
+    border-color: #e0c700; /* สีเมื่อชี้ที่ JavaScript */
+    background-color: #fff6d4; /* เปลี่ยนพื้นหลังเมื่อชี้ */
+}
+
+/* เปลี่ยนสีฟอนต์ของหัวข้อ (h3) สำหรับ JavaScript */
+.col-sm-3:nth-child(3) h3 {
+    color: #b5a000; /* สีฟอนต์ของหัวข้อ JavaScript */
+}
+
+/* เปลี่ยนสีฟอนต์ของเนื้อหาสำหรับ JavaScript */
+.col-sm-3:nth-child(3) p {
+    color: #866b00; /* สีฟอนต์ของเนื้อหา JavaScript (สีเหลืองอ่อนกว่า) */
+}
+
+/* สำหรับ HTML */
+.col-sm-3:nth-child(4) {
+    border-color: #e34f26; /* สีของ HTML */
+    background-color: #ffa589; /* พื้นหลังสีของ HTML */
+}
+
+.col-sm-3:nth-child(4):hover {
+    border-color: #f46235; /* สีเมื่อชี้ที่ HTML */
+    background-color: #ffc1ae; /* เปลี่ยนพื้นหลังเมื่อชี้ */
+}
+
+/* เปลี่ยนสีฟอนต์ของหัวข้อ (h3) สำหรับ HTML */
+.col-sm-3:nth-child(4) h3 {
+    color: #e34f26; /* สีฟอนต์ของหัวข้อ HTML */
+}
+
+/* เปลี่ยนสีฟอนต์ของเนื้อหาสำหรับ HTML */
+.col-sm-3:nth-child(4) p {
+    color: #b15e44; /* สีฟอนต์ของเนื้อหา HTML (สีส้มอ่อนกว่า) */
+}
+
+/* เพิ่มขอบให้กับรูปภาพ */
+.rounded-circle {
+    border: 5px solid #0099ff; /* ขอบรูปภาพเป็นสีฟ้า */
+    transition: all 0.3s ease; /* การเปลี่ยนแปลงทุกอย่างในเวลา 0.3 วินาที */
+}
+
+/* เพิ่มลูกเล่นเมื่อชี้ที่รูปภาพ */
+.rounded-circle:hover {
+    border-color: #6bc4ff; /* เปลี่ยนสีขอบเมื่อชี้ที่รูป */
+    transform: scale(1.1); /* ขยายรูปภาพเล็กน้อย */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้กับรูปภาพ */
+}
